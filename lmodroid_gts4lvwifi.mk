@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/gts4lvwifi/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts4lvwifi
-PRODUCT_NAME := lineage_gts4lvwifi
+PRODUCT_NAME := lmodroid_gts4lvwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T720
 PRODUCT_MANUFACTURER := samsung
