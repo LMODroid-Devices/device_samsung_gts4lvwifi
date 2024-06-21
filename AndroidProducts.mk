@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_gts4lvwifi.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_gts4lvwifi-user \
-    lmodroid_gts4lvwifi-userdebug \
-    lmodroid_gts4lvwifi-eng
